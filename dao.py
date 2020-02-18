@@ -1,4 +1,4 @@
-from app.models import Evento
+from models import Evento
 
 SQL_DELETA_EVENTO = 'delete from evento where id = %s'
 SQL_EVENTO_POR_ID = 'SELECT id, nome, data_inicio, data_fim from evento where id = %s'
