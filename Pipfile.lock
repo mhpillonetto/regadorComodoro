@@ -39,13 +39,6 @@
             "index": "pypi",
             "version": "==0.2.0"
         },
-        "gdal": {
-            "hashes": [
-                "sha256:c01c4bbcc61354af1bd3c9ca0b7190d9ce6e2786f6ec7c60e7e271fb6ea2c7fd"
-            ],
-            "index": "pypi",
-            "version": "==2.4.2"
-        },
         "gunicorn": {
             "hashes": [
                 "sha256:c3930fe8de6778ab5ea716cab432ae6335fa9f03b3f2c3e02529214c476f4bcb",
