@@ -1,9 +1,10 @@
 from flask import Flask, render_template, request, redirect, url_for
 
-from app.models import Evento
-from app.dao import EventoDao
+from models import Evento
+from dao import EventoDao
 from flask_mysqldb import MySQL
 
+app = Flask(__name__)
 
 app.config['MYSQL_HOST'] = "0.0.0.0"
 app.config['MYSQL_USER'] = "root"
@@ -15,7 +16,6 @@ db = MySQL(app)
 
 evento_dao = EventoDao(db)
 
-app = Flask(__name__)
 
 @app.route('/')
 def index():
